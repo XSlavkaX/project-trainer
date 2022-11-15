@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box
+}
+body{
+  background-color:#000000
+}
+.header {
+  /* отступ  */
+  padding: 22px 0;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header-container{
+  /* обводка для мякиша что бы понимать что двигал */
+    /* максимальная ширина */
+    max-width: 1140px;
+    /* отсутп от краев автоматически */
+    margin: auto;
+    /* ебаный Flex */
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: aliceblue;
+  }
+.login {
+ color: inherit;
+ font-size: 14px;
+ font-weight: 400;
+ text-decoration: none;
+ color: aliceblue;
+ }
+.logo {
+  /* хуй знает что то делает  */
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.nav-link {
+  color: inherit;
+  /* sixe размер бл  */
+  font-size: 14px;
+  /* толщина */
+  font-weight: 400;
+  /* убрали еб подчеркивание*/
+  text-decoration: none;
+  /* отсуп внутри контейнера */
+  margin-left: 11px;
+  margin-right: 11px;
+}
+.uper{
+background-image: url(../img/IMG-6465\ 1\ \(5\)\ 1.png);
+margin: auto;
+margin-top: 60px;
+width: 1140px;
+height: 808px;
+}
+.u-displayflex{
+display: flex;
+flex-direction: column;
+}
+.u-img{
+  /*  не дает картикне сжиматься а ровняет ее */
+object-fit: cover;
+display: block;
+background-size: cover;
+}
+.u-align{
+text-align: center;
+}
+.flexmain{
+  flex-wrap: wrap;
+}
+.main{
+text-transform: uppercase;
+font-size: 4.5rem;
+letter-spacing: 9px;
+font-weight: 700;
+margin: 60px auto;
+ color: aliceblue;
+}
+.choose{
+ margin: auto;
+ width: 1140px; 
+}
+.background{
+  font-family: "Roboto", sans-serif;
+  background-color:aliceblue;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+.ather-div{
+  margin: 40px;
+  width: 400px;
+  display: block;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  text-align: center;
+}
+.div-lessons{
+  width: 400px;
+  margin: 40px;
+  display: block;
+  border-radius: 30px;
+  border: 3px solid rgb(3, 3, 3);
+  text-align: center;
+}
+.aether{
+  display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+    font-weight: 400;
+}
+.alessons{
+  display: block;
+  padding-top: 10px;
+  text-decoration: none;
+  color: inherit;
+   font-size: 25px;
+   font-weight: 400;
+}
+
+.aboutme {
+  margin: auto;
+  width: 1140px;
+  height: px;
+  border: 3px solid rgb(5, 5, 5);
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+.aboutme-conteainer {
+  display: flex;
+}
+.aboutme-image{
+  margin-top: 30px;
+  object-fit: cover;
+  display: block;
+  background-size: cover;
+  width: 400px;
+  height: px;
+}
+
+.aboutme-text{
+  display: block;
+  
+  font-size: 20px;
+  font-weight: 400;
+  flex-basis: 35%;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.age4{
+  font-size: 60px;
+  font-weight: 600;
+}
+.age{
+  text-align: center;
+  display: block;
+  color: #000000;
+  background-color:aliceblue;
+  
+}
+.exp{
+  font-size: 15px;
+}
+.aboutattainable{
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  background-color:aliceblue;
+   
+}
+
+
+
+
+
